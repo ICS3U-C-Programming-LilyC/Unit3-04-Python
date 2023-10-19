@@ -11,11 +11,11 @@ def main():
 
     # Using If condition for positive integers.
     if user_number > 0:
-        print("Your number is positive.")
+        print("{} is positive.".format(user_number))
 
     # Using Elif condition for negative integers.
     elif user_number < 0:
-        print("Your number is negative.")
+        print("{} is negative.".format(user_number))
 
     # Using Else condition for the integer 0.
     else:
